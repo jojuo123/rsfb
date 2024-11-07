@@ -60,7 +60,7 @@ class Island():
         
         prev_prob = Bn.copy()
         for t in reversed(range(low, high)):
-            beta = defaultdict(lambda: 0.0)
+            beta = defaultdict(lambda: math.nan)
             for i in self.states:
                 tmp = math.nan
                 if self.out_edge.__contains__(i):
