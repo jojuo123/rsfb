@@ -1,6 +1,6 @@
-# Reduced-space Forward Backward algorithm (rsFB)
- 
-rsFB is a Python implementation of the proposed algorithm with the purpose to reduce space consumption of the Forward-Backward algorithm on Hidden Markov Model. The algorithm generates interval-i graphs and performs smoothing on them. 
+# SPARK: A Space-Efficient Smoothing Algorithm for Hidden Markov Models
+
+SPARK is a Python implementation of the proposed algorithm with the purpose to reduce space consumption of the Forward-Backward algorithm on Hidden Markov Model. The algorithm generates width-i graphs and performs smoothing on them. To paper is under review at IJCAI 2025. For resubmission information (at AAAI2025), please go to the **resubmission** directory. 
 
 ## Installation
 Please install "tracemalloc" package for Python 3 and GCC 11 if you want to use the cpp implementation of the Island algorithm
@@ -20,5 +20,5 @@ where:
 - L is the number of layers of the graph
 - file_name is the log file name, where the result will be printed out
 - seed is the random seed
-- i is the i parameter for interval-i graphs
+- i is the i parameter for width-i graphs
 - pi-layers is the number of layers used for initial states
