@@ -1,6 +1,6 @@
 # SPARK: A Space-Efficient Smoothing Algorithm for Hidden Markov Models
 
-SPARK is a Python implementation of the proposed algorithm with the purpose to reduce space consumption of the Forward-Backward algorithm on Hidden Markov Model. The algorithm generates width-i graphs and performs smoothing on them. To paper is under review at IJCAI 2025. For resubmission information (at AAAI2025), please go to the **resubmission** directory. 
+SPARK is a Python implementation of the proposed algorithm with the purpose to reduce space consumption of the Forward-Backward algorithm on Hidden Markov Model. The algorithm generates width-i graphs and performs smoothing on them. 
 
 ## Installation
 Please install "tracemalloc" package for Python 3 and GCC 11 if you want to use the cpp implementation of the Island algorithm
